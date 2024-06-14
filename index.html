@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="title"><h1>La classe de mathématiques de Triri</h1></div>
+    <div id="game">
+      <div id="board">
+        <div id="score">
+          <span class="score-label">Score</span>
+          <div id="coin-count">0 💰</div>
+        </div>
+        <div id="lives">
+          <span class="lives-label">Vies</span>
+          <span class="heart">❤️</span>
+          <span class="heart">❤️</span>
+          <span class="heart">❤️</span>
+        </div>
+        <button id="buy-life">Acheter 1 ❤️ pour 5 💰</button>
+      </div>
+      <div id="math">
+        <p id="problem"></p>
+        <form onsubmit="event.preventDefault(); checkAnswer();">
+          <input id="answer" type="number" />
+          <button id="submit" type="submit">Soumettre</button>
+        </form>
+      </div>
+      <button id="reset" onclick="resetGame()" style="display: none">
+        Reset Game
+      </button>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>

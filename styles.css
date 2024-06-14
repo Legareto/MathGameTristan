@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+#title {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #c5c5c5;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#game {
+  display: flex;
+  width: 100%;
+}
+
+#math {
+  width: 50%;
+  text-align: center;
+}
+
+#problem {
+  position: relative;
+  top: 0px;
+  margin: auto;
+  padding: 18px 0;
+  width: 45%;
+  font-size: 5.2em;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 16px;
+}
+
+#answer {
+  font-size: 2em;
+  width: 80px;
+  color: #000;
+  font-size: 2em;
+  margin-top: 70px;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+#submit {
+  color: #fff;
+  font-size: 2em;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #1ac35b;
+  border: 2px solid #1ac35b;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0 #000;
+}
+
+#submit:hover {
+  color: #fff;
+  background-color: #1ac35b;
+  border: 2px solid #1ac35b;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #000;
+}
+
+#board {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+#lives {
+  position: relative; /* Add relative positioning to the parent element */
+  margin: auto;
+  width: 40%;
+  height: 110px;
+  border: 5px dotted red;
+  border-radius: 16px;
+  padding: 6px 0 18px 0;
+}
+
+.lives-label {
+  position: absolute; /* Use absolute positioning */
+  top: -25px; /* Adjust this value as needed to position the label on the border */
+  left: 50%; /* Center the label */
+  transform: translateX(-50%); /* Ensure the label is centered correctly */
+  font-size: 1.4em;
+  font-weight: bold;
+  color: red;
+  background-color: #fff;
+  padding: 6px 10px 6px 10px;
+  border: 1px solid red;
+  border-radius: 16px;
+}
+
+.heart {
+  font-size: 5em;
+}
+
+#score {
+  position: relative;
+  margin: auto;
+  margin-bottom: 55px;
+  width: 40%;
+  height: 110px;
+  border: 5px dotted rgb(172, 147, 2);
+  border-radius: 8px;
+  padding: 16px 0 18px 0;
+  text-align: center;
+}
+
+.score-label {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.6em;
+  color: rgb(172, 147, 2);
+  background-color: #fff;
+  padding: 6px 10px 6px 10px;
+  border: 1px solid rgb(172, 147, 2);
+  border-radius: 16px;
+}
+
+#coin-count {
+  font-size: 5em;
+  color: rgb(172, 147, 2);
+}
+
+#buy-life {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin-top: 40px;
+  background-color: #2353ef;
+  border: 2px solid #2353ef;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0 #000;
+}
+
+#buy-life:hover {
+  color: #fff;
+  background-color: #2353ef;
+  border: 2px solid #2353ef;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #000;
+}
