@@ -59,9 +59,9 @@ document.getElementById("buy-life").addEventListener("click", function () {
       "lives"
     ).innerHTML = `<span class="lives-label">Vies</span> ${livesString}`;
   } else if (lives >= 3) {
-    alert("You already have maximum lives!");
+    alert("Tu as déjà atteint le maximum de vies!");
   } else {
-    alert("You don't have enough coins to buy a life!");
+    alert("Tu n'as pas assez de pièces pour acheter une vie.");
   }
 });
 
