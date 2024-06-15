@@ -158,3 +158,28 @@ h1 {
   cursor: pointer;
   box-shadow: 2px 2px 0 #000;
 }
+
+@media (max-width: 1940px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  #problem {
+    font-size: 3.2em;
+  }
+
+  #math {
+    width: 65%;
+  }
+
+  #score {
+    width: 65%;
+  }
+
+  #lives {
+    width: 65%;
+  }
+
+  #buy-life {
+  }
+}
