@@ -10,12 +10,22 @@ body {
 }
 
 h1 {
-  font-size: 2.6em;
+  font-size: 2.2em;
 }
 
 #title {
   position: fixed;
   top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #c5c5c5;
+  text-align: center;
+  padding: 1px 0;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
   z-index: 1;
   background-color: #c5c5c5;
@@ -161,7 +171,7 @@ h1 {
 
 @media (max-width: 1940px) {
   h1 {
-    font-size: 1.8em;
+    font-size: 1.4em;
   }
 
   #problem {
