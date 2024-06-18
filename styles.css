@@ -169,6 +169,50 @@ h1 {
   box-shadow: 2px 2px 0 #000;
 }
 
+/* After a Game Over, everything is hidden */
+.hide-all {
+  display: none;
+}
+
+.gameover-label {
+  display: block;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: red;
+  margin-top: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+/* Reset Button */
+.reset-button {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #2353ef;
+  border: 2px solid #2353ef;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0 #000;
+}
+
+.reset-button:hover {
+  color: #fff;
+  background-color: #2353ef;
+  border: 2px solid #2353ef;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #000;
+}
+
+/* Breakpoints for responsive design (laptop) */
 @media (max-width: 1940px) {
   h1 {
     font-size: 1.4em;
@@ -188,8 +232,5 @@ h1 {
 
   #lives {
     width: 65%;
-  }
-
-  #buy-life {
   }
 }

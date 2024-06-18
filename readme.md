@@ -1,4 +1,4 @@
-Jeu d'apprentissage des mathématiques pour Tristan
+# Jeu d'apprentissage des mathématiques pour Tristan
 
 Développé par Tristan et Papa
 
